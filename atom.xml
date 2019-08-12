@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://cjsmy1973.github.io/"/>
   <updated>2019-08-12T06:15:28.491Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://cjsmy1973.github.io/</id>
   
   <author>
     <name>Tom Cheng</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Json文件</title>
-    <link href="http://yoursite.com/2019/08/11/Json%E6%96%87%E4%BB%B6/"/>
-    <id>http://yoursite.com/2019/08/11/Json文件/</id>
+    <link href="https://cjsmy1973.github.io/2019/08/11/Json%E6%96%87%E4%BB%B6/"/>
+    <id>https://cjsmy1973.github.io/2019/08/11/Json文件/</id>
     <published>2019-08-11T15:45:34.000Z</published>
     <updated>2019-08-12T06:15:28.491Z</updated>
     
@@ -34,10 +34,10 @@
     
     </summary>
     
-      <category term="文件类" scheme="http://yoursite.com/categories/%E6%96%87%E4%BB%B6%E7%B1%BB/"/>
+      <category term="文件类" scheme="https://cjsmy1973.github.io/categories/%E6%96%87%E4%BB%B6%E7%B1%BB/"/>
     
     
-      <category term="配置文件" scheme="http://yoursite.com/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
+      <category term="配置文件" scheme="https://cjsmy1973.github.io/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/"/>
     
   </entry>
   
