@@ -81,18 +81,18 @@
 
 
 
-<meta name="description" content="Json文件json文件最为常用的配置文件(尤其是web项目)，有着数据格式比较简单, 易于读写, 格式都是压缩的,占用带宽小的特点。在C#中,操作json文件的常用方法是第三方类库json.net.  Json文件 Json文件作为配置文件使用 导入Json配置文件转化为对应实体类 将已有对象写入json配置文件   Web应用中json的使用 JsonConvert对象序列化对象 JsonCo">
+<meta name="description" content="Json文件json文件最为常用的配置文件(尤其是web项目)，有着数据格式比较简单, 易于读写, 格式都是压缩的,占用带宽小的特点。在C#中,操作json文件的常用方法是第三方类库json.net. Json文件作为配置文件使用那么下面让我们来学习如何使用json.net插件。 导入Json配置文件转化为对应实体类通常我们需要从指定路径Path中读取配置文件转化为我们想要的实体类，假设我们现在的">
 <meta name="keywords" content="配置文件">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Json文件">
 <meta property="og:url" content="http://yoursite.com/2019/08/11/Json文件/index.html">
 <meta property="og:site_name" content="C#">
-<meta property="og:description" content="Json文件json文件最为常用的配置文件(尤其是web项目)，有着数据格式比较简单, 易于读写, 格式都是压缩的,占用带宽小的特点。在C#中,操作json文件的常用方法是第三方类库json.net.  Json文件 Json文件作为配置文件使用 导入Json配置文件转化为对应实体类 将已有对象写入json配置文件   Web应用中json的使用 JsonConvert对象序列化对象 JsonCo">
+<meta property="og:description" content="Json文件json文件最为常用的配置文件(尤其是web项目)，有着数据格式比较简单, 易于读写, 格式都是压缩的,占用带宽小的特点。在C#中,操作json文件的常用方法是第三方类库json.net. Json文件作为配置文件使用那么下面让我们来学习如何使用json.net插件。 导入Json配置文件转化为对应实体类通常我们需要从指定路径Path中读取配置文件转化为我们想要的实体类，假设我们现在的">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-12T06:06:27.011Z">
+<meta property="og:updated_time" content="2019-08-12T06:15:28.491Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Json文件">
-<meta name="twitter:description" content="Json文件json文件最为常用的配置文件(尤其是web项目)，有着数据格式比较简单, 易于读写, 格式都是压缩的,占用带宽小的特点。在C#中,操作json文件的常用方法是第三方类库json.net.  Json文件 Json文件作为配置文件使用 导入Json配置文件转化为对应实体类 将已有对象写入json配置文件   Web应用中json的使用 JsonConvert对象序列化对象 JsonCo">
+<meta name="twitter:description" content="Json文件json文件最为常用的配置文件(尤其是web项目)，有着数据格式比较简单, 易于读写, 格式都是压缩的,占用带宽小的特点。在C#中,操作json文件的常用方法是第三方类库json.net. Json文件作为配置文件使用那么下面让我们来学习如何使用json.net插件。 导入Json配置文件转化为对应实体类通常我们需要从指定路径Path中读取配置文件转化为我们想要的实体类，假设我们现在的">
 
 
 
@@ -352,7 +352,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1k字
+                  948字
                 </span>
               
 
@@ -368,7 +368,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  4分钟
+                  3分钟
                 </span>
               
             </div>
@@ -390,26 +390,6 @@
 
       
         <h1 id="Json文件"><a href="#Json文件" class="headerlink" title="Json文件"></a>Json文件</h1><p>json文件最为常用的配置文件(尤其是web项目)，有着数据格式比较简单, 易于读写, 格式都是压缩的,占用带宽小的特点。在C#中,操作json文件的常用方法是第三方类库<code>json.net</code>.</p>
-<ul>
-<li><a href="#json%E6%96%87%E4%BB%B6">Json文件</a><ul>
-<li><a href="#json%E6%96%87%E4%BB%B6%E4%BD%9C%E4%B8%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%BD%BF%E7%94%A8">Json文件作为配置文件使用</a><ul>
-<li><a href="#%E5%AF%BC%E5%85%A5json%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%BD%AC%E5%8C%96%E4%B8%BA%E5%AF%B9%E5%BA%94%E5%AE%9E%E4%BD%93%E7%B1%BB">导入Json配置文件转化为对应实体类</a></li>
-<li><a href="#%E5%B0%86%E5%B7%B2%E6%9C%89%E5%AF%B9%E8%B1%A1%E5%86%99%E5%85%A5json%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">将已有对象写入json配置文件</a></li>
-</ul>
-</li>
-<li><a href="#web%E5%BA%94%E7%94%A8%E4%B8%ADjson%E7%9A%84%E4%BD%BF%E7%94%A8">Web应用中json的使用</a><ul>
-<li><a href="#jsonconvert%E5%AF%B9%E8%B1%A1%E5%BA%8F%E5%88%97%E5%8C%96%E5%AF%B9%E8%B1%A1">JsonConvert对象序列化对象</a></li>
-<li><a href="#jsonconvert%E5%AF%B9%E8%B1%A1%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%AF%B9%E8%B1%A1">JsonConvert对象反序列化对象</a><ul>
-<li><a href="#%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E5%B0%8F%E4%BA%8E85kb">文件大小小于85kb</a></li>
-<li><a href="#%E6%96%87%E4%BB%B6%E5%A4%A7%E4%BA%8E85kb">文件大于85kb</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E7%BB%93%E8%AF%AD">结语</a></li>
-</ul>
-</li>
-</ul>
 <h2 id="Json文件作为配置文件使用"><a href="#Json文件作为配置文件使用" class="headerlink" title="Json文件作为配置文件使用"></a>Json文件作为配置文件使用</h2><p>那么下面让我们来学习如何使用<code>json.net</code>插件。</p>
 <h3 id="导入Json配置文件转化为对应实体类"><a href="#导入Json配置文件转化为对应实体类" class="headerlink" title="导入Json配置文件转化为对应实体类"></a>导入Json配置文件转化为对应实体类</h3><p>通常我们需要从指定路径Path中读取配置文件转化为我们想要的实体类，假设我们现在的json文件是个json数组，如下所示</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">	&#123;&quot;Key&quot;:&quot;test&quot;,&quot;Value&quot;:&quot;test&quot;&#125;,</span><br><span class="line">	&#123;&quot;Key&quot;:&quot;test&quot;,&quot;Value&quot;:&quot;test&quot;&#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
@@ -719,7 +699,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">1k</span>
+    <span title="Site words total count">948</span>
   
 </div>
 
